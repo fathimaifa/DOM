@@ -1,0 +1,15 @@
+ini kode yang ga efektifnya, untuk event pas ngeklik gambar gajah. kalau pake ini kita harus bikin
+addEventListener beberapakali untuk yang pGajah, pOrang, dan pSemut. nah, di kode yang fix, kita pake 
+forEach biar penulisan kodenya efektif
+
+// Mengambil eventnya
+// const pGajah = document.querySelector('.gajah')
+// pGajah.addEventListener('click', function() {
+// 	const pilihanComputer = getPilihanComputer()
+// 	const pilihanPlayer = pGajah.className
+// 	const hasil = getHasil(pilihanComputer, pilihanPlayer)
+// 	const imgComputer = document.querySelector('.img-komputer')
+// 	imgComputer.setAttribute('src', 'img/'+pilihanComputer+'.png')
+// 	const info = document.querySelector('.info')
+// 	info.innerHTML = hasil
+// })
